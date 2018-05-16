@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qml/Prefect/Planet.qml</file>
+        <file>qml/Prefect/qmldir</file>
+    </qresource>
+</RCC>
