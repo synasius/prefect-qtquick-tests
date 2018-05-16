@@ -9,8 +9,10 @@ Project {
 
         Depends { name: "Qt.qmltest" }
 
-        //Depends { name: "quickpaths" }
-        //quickpaths.additionalImportPaths: ["qrc:/qml"]
+        // we depend on quickpaths so we can provide additional
+        // import paths to the test runner
+        Depends { name: "quickpaths" }
+        quickpaths.additionalImportPaths: ["qrc:/qml"]
 
         files: [
             "tst_planet.cpp",

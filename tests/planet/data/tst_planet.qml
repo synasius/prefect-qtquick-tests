@@ -17,7 +17,7 @@ TestCase {
     }
 
     function test_planet_grow_when_clicked() {
-        var planet = planetComponent.createObject(planetComponent);
+        var planet = planetComponent.createObject(testCase);
         verify(planet);
 
         compare(planet.width, 50);

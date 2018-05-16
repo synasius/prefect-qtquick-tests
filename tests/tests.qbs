@@ -6,5 +6,5 @@ Project {
         "planet/planet.qbs"
     ]
 
-    AutotestRunner { }
+    TestRunner { }
 }

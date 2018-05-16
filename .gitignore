@@ -76,3 +76,5 @@ release/
 default/
 *.qbs.user
 compile_commands.json
+
+*.qmlc
